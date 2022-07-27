@@ -9,7 +9,6 @@ namespace Domain.Main
 {
     public interface IUnitOfWork : IDisposable
     {
-        IWeatherForecastRepo WeatherForecasts { get; }
         ICustomerRepo Customers { get; }
         IItemRepo Items { get; }
         IInvoiceHeaderRepo InvoiceHeaders { get; }

@@ -12,8 +12,6 @@ namespace DAL.Main
     public class UnitOfWork : IUnitOfWork
     {
         private readonly AppDBContext _context;
-
-        public IWeatherForecastRepo WeatherForecasts { get; private set; }
         public ICustomerRepo Customers { get; private set; }
         public IItemRepo Items { get; private set; }
         public IInvoiceHeaderRepo InvoiceHeaders { get; private set; }
@@ -22,7 +20,6 @@ namespace DAL.Main
         public UnitOfWork(AppDBContext context)
         {
             _context = context;
-            WeatherForecasts = new WeatherForecastRepo(_context);
             Customers = new CustomerRepo(_context);
             Items = new ItemRepo(_context);
             InvoiceHeaders = new InvoiceHeaderRepo(_context);
