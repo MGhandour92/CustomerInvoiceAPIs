@@ -1,0 +1,229 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\GIT\\Freelance Work\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\APIs\\APIs.csproj": {}
+  },
+  "projects": {
+    "F:\\GIT\\Freelance Work\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\APIs\\APIs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\GIT\\Freelance Work\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\APIs\\APIs.csproj",
+        "projectName": "APIs",
+        "projectPath": "F:\\GIT\\Freelance Work\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\APIs\\APIs.csproj",
+        "packagesPath": "C:\\Users\\mo.elghandour\\.nuget\\packages\\",
+        "outputPath": "F:\\GIT\\Freelance Work\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\APIs\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mo.elghandour\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\mo.elghandour\\Desktop": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/MGhandour92/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\GIT\\Freelance Work\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\DAL\\DAL.csproj": {
+                "projectPath": "F:\\GIT\\Freelance Work\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.22.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\GIT\\Freelance Work\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\GIT\\Freelance Work\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "F:\\GIT\\Freelance Work\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\mo.elghandour\\.nuget\\packages\\",
+        "outputPath": "F:\\GIT\\Freelance Work\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mo.elghandour\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\mo.elghandour\\Desktop": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/MGhandour92/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\GIT\\Freelance Work\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\Domain\\Domain.csproj": {
+                "projectPath": "F:\\GIT\\Freelance Work\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\GIT\\Freelance Work\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\GIT\\Freelance Work\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "F:\\GIT\\Freelance Work\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\mo.elghandour\\.nuget\\packages\\",
+        "outputPath": "F:\\GIT\\Freelance Work\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\CustomerInvoiceAPIs\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mo.elghandour\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\mo.elghandour\\Desktop": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/MGhandour92/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
